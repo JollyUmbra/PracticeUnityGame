@@ -8,7 +8,7 @@ public class PlayerMove : MonoBehaviour
 	Rigidbody2D player;
 
 	public Transform groundCheck;
-	float groundRadius = 0.2f;
+	float groundRadius = 0.01f;
 	public LayerMask whatIsGround;
 	bool grounded = false;
 
